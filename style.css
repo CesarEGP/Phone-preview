@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 1vh 2vh;    
+  /* height: fit-content;
+  width: fit-content;
+  border: none;
+  cursor: pointer; */  
+  color: #21b689;
+  background-color: #fff;
+  border: none;
+  font-size: 2vh;
+}
+
+#logo{
+  margin-top: 2vh;
+  padding-left: 5vh;
+  font-size: 2.1vh;
+  
+}
+
+
+
+.reservar {
+  color: #fff;
+  padding: 0.50rem;
+  border-radius: 15px;
+  background-color: #21b689;  
+}
+
+
+header {
+  display: flex;
+  position: sticky;
+  height: 10vh;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  height: 35vh;
+  padding: 1rem;
+  border: 1px solid black;
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2017%2F10%2F04%2Fgettyimages-183060524-2000.jpg);
+  background-size: cover;
+}
+
+.contenedor--main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav--contenido {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.section--contenido{
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 50vh;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section--container--articulos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  width: 90%;
+  height: 15vh;
+  background-color: #646464;
+  border-radius: 15px;
+}
+
+#logo1{  
+  color: yellow;
+  font-weight: 700;
+}
+
+#logo2{  
+  color: #21b689;
+  font-weight: 700;
+}
+
+.log{
+  margin-top: 1vh;
+}
+
+.letb{
+  color: #fff;
+  font-weight: 900;  
+}
+
+#section--container--articulos--image1{
+  margin-left: 2vh;
+  padding: 6vh;
+  border-radius: 20px;  
+  background-image: url(https://www.cuerpomente.com/medio/2022/06/23/brocheta-de-verduras_6acf1875_1200x1200.jpg);
+  background-size: cover;
+}
+
+#section--container--articulos--image2{
+  margin-left: 2vh;
+  padding: 6vh;
+  border-radius: 20px;  
+  background-image: url(https://images-gmi-pmc.edge-generalmills.com/d9f23ea2-3331-4696-97e7-eb8f8c544c2c.jpg);
+  background-size: cover;
+}
+
+#section--container--articulos--image3{
+  margin-left: 2vh;
+  padding: 6vh;
+  border-radius: 20px;  
+  background-image: url(https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/general/sushi-empanizado/main-header.jpg);
+  background-size: cover;
+}
+
+.section--container--articulos--descrip{
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #21b689;
+  padding: 2vh;
+  margin-right: 2rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+
+
+
