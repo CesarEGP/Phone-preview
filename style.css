@@ -38,6 +38,7 @@ header {
   display: flex;
   position: sticky;
   height: 10vh;  
+  border-bottom: 1px solid black;  
 }
 
 nav {
@@ -52,7 +53,6 @@ main {
   justify-content: flex-start;
   height: 35vh;
   padding: 1rem;
-  border: 1px solid black;
   background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2017%2F10%2F04%2Fgettyimages-183060524-2000.jpg);
   background-size: cover;
 }
@@ -200,6 +200,16 @@ footer{
   height: 75vh;
 }
 
+#main--login2{      
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;  
+  background: #fff;  
+  width: 100%;
+  height: auto;
+}
+
 
 
 h1 span{  
@@ -246,6 +256,19 @@ h1 span{
 #footer--div a{
   color: #21b689;  
 }
+
+#footer--btn{  
+  margin-bottom: 3vh;
+}
+
+#btn--submit{
+  border-radius: 20px;
+  padding: 2vh;
+  background: #21b689;
+  color: #fff;
+}
+
+
 
 form div{
   display: flex;

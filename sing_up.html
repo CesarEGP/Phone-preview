@@ -35,27 +35,41 @@
       </div>
     </nav>
   </header>
-  <main id="main--login">
-    <div class="contenedor--login">
-        <h1 class="h1--login">Welcome to Little Lemmon.<span>&#160;</span></h1>                
-    </div>
-    <div class="contenedor--login--data">      
-      <form action="" id="form-login">
-        <div>
-          <label for="nombres">User</label>
-          <input type="text" id="nombres" placeholder="Ejem. Jose" required minlength="2" maxlength="20">
-        </div>
-        <div>
-          <label for="password">Password</label>
-          <input type="password" id="password" required minlength="2" maxlength="20">
-        </div>
-        <button type="submit" id="btn--login">Login</button>
-      </form>
-    </div>    
+  <main id="main--login2">
+    <form action="">
+      <div>        
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required minlength="2" maxlength="20">        
+      </div>
+      <div>        
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" required minlength="2" maxlength="20">        
+      </div>
+      <div>        
+        <label for="uname">User Name</label>
+        <input type="text" id="uname" required minlength="2" maxlength="20">        
+      </div>
+      <div>        
+        <label for="phone">Phone </label>
+        <input type="tel" id="phone" required minlength="2" maxlength="20">        
+      </div>
+      <div>        
+        <label for="email">Email</label>
+        <input type="email" id="email" required minlength="2" maxlength="20">        
+      </div>
+      <div>        
+        <label for="pass">Password</label>
+        <input type="password" id="pass" required minlength="2" maxlength="20">        
+      </div>
+      <div>        
+        <label for="cpass">Confirm Password</label>
+        <input type="password" id="cpass" required minlength="2" maxlength="20">        
+      </div>
+    </form>       
   </main> 
   <footer>
-    <div>
-      <h3>Nor an account yet? <a href="">Create One</a></h3>
+    <div id="footer--btn">
+      <button type="submit" id="btn--submit">Submit</button>
     </div>
   </footer>   
 </body>
